@@ -153,10 +153,7 @@ footer span {
 	font-size: 1.167em;
 }
 
-@media all and (min-width: 423px) {
-	/* HEADER CHANGE */
-	
-}	
+/***** BREAKPOINTS *****/
 
 @media all and (min-width: 768px) {
 	/* TABLET STYLES */
@@ -192,5 +189,23 @@ footer span {
 
 @media all and (min-width: 1200px) {
 	/* DESKTOP STYLES */
+	header {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	header h1 {
+		width: 60%;
+		padding: 5% 0;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	header nav ul {
+		width: 40%;
+		display: flex;
+	}
 
 }
